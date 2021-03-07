@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Shippori Mincho B1", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+header {
+  background-color: wheat;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header h1 {
+  color: white;
+  font-size: 50px;
+}
+
+header img {
+  border-radius: 170px;
+  width: 300px;
+  border: 20px solid white;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 35px;
+  color: teal;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: darkblue;
+  background-color: violet;
+}
+
+footer {
+  background-color: wheat;
+  text-align: center;
+  padding: 50px;
+}
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  opacity: 0.5;
+  background-color: transparent;
+}
+
+p.caption {
+  color: grey;
+  font-style: italic;
+  margin-top: 0;
+}
